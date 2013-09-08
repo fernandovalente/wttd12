@@ -1,14 +1,20 @@
-<!doctype html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
+{% extends "base.html" %}
 
-  <link href='http://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet' type='text/css'>
-  <link href='{{ STATIC_URL }}css/style.css' rel='stylesheet' type='text/css'>
+{% block css %}{% endblock %}
 
-  <title>EventeX</title>
-</head>
-<body>
-  <div id="logo">EventeX</div>
-</body>
-</html>
+{% block content %}
+  <header>
+    <div id="logo">evente<span class="x-color">x</span></div>
+    <article>
+      Bem-vindo!
+      <p>O evento mais sensacional do ano depois do Dev in Rio!</p>
+      <p>Você não pode perder esta oportunidade!</p>
+    </article>
+  </header>
+
+  <footer>
+    <span class="big-bt">Inscrições em breve</span>
+  </footer>
+{% endblock %}
+
+{% block js %}{% endblock %}
