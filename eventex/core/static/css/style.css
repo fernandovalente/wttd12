@@ -79,6 +79,7 @@ header article {
 }
 
 .big-bt {
+    cursor: pointer;
 	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
 	box-shadow:inset 0px 1px 0px 0px #ffffff;
@@ -102,7 +103,6 @@ header article {
 	border:2px solid #dcdcdc;
 	display:inline-block;
 	color:#777777;
-	font-family:arial;
 	font-size:19px;
 	font-weight:bold;
 	font-style:normal;
@@ -126,6 +126,6 @@ header article {
 }
 
 footer {
-    padding-top: 30px;
+    padding-top: 80px;
     text-align: center;
 }
