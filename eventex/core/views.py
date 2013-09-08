@@ -4,5 +4,5 @@ from django.shortcuts import render, redirect
 
 
 def home(request):
-    """ Exibe a home com form para encurtar a URL """
+    """ Exibe a home """
     return render(request, 'home.html')
