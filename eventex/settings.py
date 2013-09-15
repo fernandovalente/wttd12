@@ -1,11 +1,12 @@
 # coding: utf-8
 # Django settings for eventex project.
 
+import os
 from unipath import Path
 
 PROJECT_DIR = Path(__file__).parent.parent
 
-DEBUG = True
+DEBUG = os.environ.get('DEBUG') == True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
